@@ -59,7 +59,7 @@ body{
 
 /* sec- three*/
 .sec-three{
-    margin-top: 30px;
+    margin-top: 60px;
 }
 .radial{
     display: flex;
@@ -87,4 +87,33 @@ body{
     background-color: #070211;
     color: #FFFFFF;
     border-style: none;
+}
+
+/*address*/
+
+.sec-four{
+    padding: 100px 300px 110px 300px;
+    text-align: center;
+    background: linear-gradient(rgb(255, 210, 210)0%,rgba(255, 0, 0, 0)100%);
+    border-radius: 16px;
+    margin-top: 70px;
+}
+.sec-four .address span{
+    color: #FF0000;
+    font-size: 32px;
+    font-weight: 500;
+}
+.sec-four .address p{
+    font-size: 32px;
+    font-weight: 500;
+    color: #070211;
+}
+.sec-four .btn button{
+    background-color: #FF0000;
+    color: #FFFFFF;
+    padding: 16px 32px;
+    border-radius: 8px;
+    border-style: none;
+    font-size: 20px;
+    font-weight: bold;
 }
