@@ -1,0 +1,14 @@
+body{
+    padding: 0% 15% 0% 15%;
+}
+.gradient{
+    width: 1320px;
+    height: 600px;
+    background: linear-gradient(rgba(7, 2, 17, 1)0%,rgba(7, 2, 17, 0)100%);
+    border-radius: 16px;
+    position: absolute;
+}
+.sec-one>img{
+   border-radius: 16px;
+   
+}
