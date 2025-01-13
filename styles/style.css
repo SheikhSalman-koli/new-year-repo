@@ -1,6 +1,14 @@
+.open-sans-normal {
+    font-family: "Open Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
 body{
     padding: 0% 15% 0% 15%;
 }
+/* sec-one */
 .gradient{
     width: 1320px;
     height: 600px;
@@ -11,4 +19,27 @@ body{
 .sec-one>img{
    border-radius: 16px;
    
+}
+
+/* sec-tow */
+.sec-tow{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+.sec-tow .cont h1{
+    font-size: 88px;
+    font-weight: bold;
+    color:#FF0000 ;
+}
+.sec-tow .cont p{
+    color: #FF0000;
+    font-size: 24px;
+    font-weight: 200;
+}
+.sec-tow .cont h3{
+    color: #070211;
+    font-size: 48px;
+    font-weight:bold;
 }
