@@ -94,7 +94,7 @@ body{
 .sec-four{
     padding: 100px 300px 110px 300px;
     text-align: center;
-    background: linear-gradient(rgb(255, 210, 210)0%,rgba(255, 0, 0, 0)100%);
+    background: linear-gradient(rgb(255, 227, 227)0%,rgba(255, 0, 0, 0)100%);
     border-radius: 16px;
     margin-top: 70px;
 }
@@ -116,4 +116,45 @@ body{
     border-style: none;
     font-size: 20px;
     font-weight: bold;
+}
+
+/* sec-five */
+
+.sec-five{
+    display: flex;
+    align-items: center;
+    margin-top:70px ;
+    
+}
+.all-p{
+    font-size: 20px;
+    color: #070211;
+}
+.sec-five h5{
+    font-size: 24px;
+    font-weight: 500;
+    color: #FF0000;
+}
+.sec-five .one h2{
+    font-size: 48px;
+    font-weight: 900;
+    color: #070211;
+}
+.sec-five .three h2{
+    font-size: 48px;
+    font-weight: bold;
+    color: #FF0000;
+}
+.sec-five .three {
+   margin-left: 100px;
+}
+.sec-five .tow{
+    margin-left: 50px;
+    width: 463px;
+    height: 463px;
+    border: 12px solid #FF0000;
+    border-radius: 50%;
+}
+.sec-five .tow img{
+    padding: 49px;
 }
