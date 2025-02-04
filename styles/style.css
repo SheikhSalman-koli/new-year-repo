@@ -5,10 +5,16 @@
     font-variation-settings:
       "wdth" 100;
   }
-body{
-    padding: 0% 15% 0% 15%;
+
+main{
+    max-width: 1320px;
+    margin: 0 auto;
 }
-/* sec-one */
+/* sec-one  this is actually header */
+.sec-one{
+    max-width: 1320px;
+    margin: 0 auto;
+}
 .gradient{
     width: 1320px;
     height: 600px;
@@ -17,6 +23,7 @@ body{
     box-sizing: border-box;
     padding: 50px 230px;
     position: absolute;
+    margin: 0 auto;
 }
 .gradient h5{
     font-size: 32px;
@@ -31,13 +38,10 @@ body{
 }
 .sec-one>img{
    border-radius: 16px;
-   
 }
 
 /* sec-tow */
 .sec-tow{
-    display: flex;
-    flex-direction: column;
     text-align: center;
     
 }
@@ -59,7 +63,7 @@ body{
 
 /* sec- three*/
 .sec-three{
-    margin-top: 60px;
+    margin-top: 80px;
 }
 .radial{
     display: flex;
@@ -157,4 +161,39 @@ body{
 }
 .sec-five .tow img{
     padding: 49px;
+}
+
+/* sec-six */
+.sec-six{
+    margin-top: 80px;
+}
+.texts{
+    text-align: center;
+}
+.texts h6{
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0;
+}
+.texts h1{
+    font-size: 72px;
+    font-weight:bold;
+    margin: 0;
+}
+.texts h1 span{
+    color: #FF0000;
+}
+.pics{
+    /* position: relative; */
+}
+.ekk{
+    position: relative;
+   bottom:190px;
+   z-index: -10;
+    
+}
+.tin{
+    position: relative;
+    bottom:350px ;
+    left: 190px;
 }
